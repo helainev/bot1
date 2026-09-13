@@ -11,3 +11,5 @@ wheels/
 .venv/
 .cache/
 __pycache__/
+joker_lora_weights/
+joker_lora_weights/*/
