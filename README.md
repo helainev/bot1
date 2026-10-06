@@ -31,7 +31,7 @@ Ensure you have a local instance of [Ollama](https://ollama.com) installed and r
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/helainev/bot1.git
    cd bot1
    ```
 
@@ -65,6 +65,6 @@ uv run python src/train_joker1.py
 Once your custom weights are exported or integrated into an Ollama model definition file (`Modelfile`), trigger the interactive chat application:
 
 ```bash
-uv run python bot_app.py
+streamlit run bot_app.py
 ```
 The script interacts directly with Ollama's local REST endpoints, enabling rapid prototyping, low-latency streaming responses, and complete data privacy.

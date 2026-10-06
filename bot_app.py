@@ -1,3 +1,6 @@
+# для запуска набираем: 
+# streamlit run bot_app.py
+
 import streamlit as st
 import requests
 import json
